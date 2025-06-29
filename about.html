@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css"
+    />
+    <title>Pricilia Oktoviani Girato Portfolio</title>
+    <link rel="stylesheet" href="styles/about.css" />
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+  </head>
+  <body>
+    <!-- Navbar Section -->
+    <nav>
+      <div class="nav-container">
+        <div class="logo" data-aos="zoom-in" data-aos-duration="1000">
+          <span>PRICILIA OKTOVIANI GIRATO</span>
+        </div>
+        <div class="links">
+          <div
+            class="link"
+            data-aos="fade-up"
+            data-aos-duration="1000"
+            data-aos-delay="100"
+          >
+            <a href="index.html">Home</a>
+          </div>
+          <div
+            class="link"
+            data-aos="fade-up"
+            data-aos-duration="1000"
+            data-aos-delay="200"
+          >
+            <a href="about.html">About</a>
+          </div>
+          <div
+            class="link"
+            data-aos="fade-up"
+            data-aos-duration="1000"
+            data-aos-delay="300"
+          >
+            <a href="edu.html">Education</a>
+          </div>
+
+          <div
+            class="link contact-btn"
+            data-aos="fade-up"
+            data-aos-duration="1000"
+            data-aos-delay="600"
+          >
+            <a href="https://wa.me/+6281232077049">Contact Me</a>
+          </div>
+        </div>
+        <i class="fa-solid fa-bars hamburg" onclick="hamburg()"></i>
+      </div>
+      <div class="dropdown">
+        <div class="links">
+          <a href="index.html">Home</a>
+          <a href="about.html">About</a>
+          <a href="edu.html">Education</a>
+          >
+          <a class="contact-me" href="https://wa.me/+6281232077049"
+            >Contact Me</a
+          >
+          <i class="fa-solid fa-xmark cancel" onclick="cancel()"></i>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Main Section -->
+    <section>
+      <div class="main-container">
+        <div class="image" data-aos="zoom-in-right" data-aos-duration="2500">
+          <img
+            style="border-radius: 50%"
+            src="Photos/pricilia3.jpg"
+            alt="photo profil"
+          />
+        </div>
+        <div class="content">
+          <h1
+            data-aos="fade-left"
+            data-aos-duration="1000"
+            data-aos-delay="800"
+          >
+            Hello My Name is <span>Pricilia Oktoviani Girato</span>
+          </h1>
+          <p
+            data-aos="fade-down"
+            data-aos-duration="1000"
+            data-aos-delay="1000"
+          >
+            My name is Pricilia Oktoviani Girato, I was born on June 7, 2006 in
+            Masohi City. I come from Tobelo, North Maluku, and currently live in
+            Ambon City to pursue higher education. I am the second of three
+            children, and the only girl in the family.
+          </p>
+          <p
+            data-aos="fade-left"
+            data-aos-duration="1000"
+            data-aos-delay="1200"
+          >
+            Currently, I am studying at the Indonesian Christian University of
+            Maluku (UKIM), Faculty of Computer Science, majoring in Informatics.
+            I have a great interest in information technology and aspire to
+            contribute to the development of innovative and beneficial digital
+            systems for society.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Skill Container -->
+    <section style="height: 100%">
+      <div class="skill-container">
+        <div class="content">
+          <h1
+            style="font-size: 50px"
+            data-aos="fade-left"
+            data-aos-duration="1000"
+            data-aos-delay="800"
+          >
+            My <span>Hobby</span>
+          </h1>
+        </div>
+        <div class="skill-content">
+          <!-- html card  -->
+          <div class="card" data-aos="fade-right" data-aos-duration="2500">
+            <div class="card__content">
+              <img
+                class="img-card"
+                src="Photos/menonton-removebg-preview.png"
+                alt=""
+              />
+              <h3>Watch Film</h3>
+              <p></p>
+            </div>
+          </div>
+
+          <!-- eat card  -->
+          <div class="card" data-aos="fade-right" data-aos-duration="2500">
+            <div class="card__content">
+              <img
+                class="img-card"
+                src="Photos/makan-removebg-preview.png"
+                alt=""
+              />
+              <h3>Eat</h3>
+              <p></p>
+            </div>
+          </div>
+
+          <!-- Traveling card  -->
+          <div class="card" data-aos="fade-down" data-aos-duration="2500">
+            <div class="card__content">
+              <img
+                class="img-card"
+                src="Photos/jalanJalan-removebg-preview.png"
+                alt=""
+              />
+              <h3>Traveling</h3>
+              <p></p>
+            </div>
+          </div>
+
+          <!-- sing card -->
+          <div class="card" data-aos="fade-left" data-aos-duration="2500">
+            <div class="card__content">
+              <img
+                class="img-card"
+                src="Photos/menyanyi-removebg-preview.png"
+                alt=""
+              />
+              <h3>Sing</h3>
+              <p></p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init({ offset: 0 });
+    </script>
+    <script src="script.js"></script>
+  </body>
+</html>

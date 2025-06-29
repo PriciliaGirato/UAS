@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css"
+    />
+    <title>Pricilia Oktoviani Girato Portfolio</title>
+    <link rel="stylesheet" href="styles/education.css" />
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+  </head>
+  <body>
+    <!-- Navbar Section -->
+    <nav>
+      <div class="nav-container">
+        <div class="logo" data-aos="zoom-in" data-aos-duration="1000">
+          <span>PRICILIA OKTOVIANI GIRATO</span>
+        </div>
+        <div class="links">
+          <div
+            class="link"
+            data-aos="fade-up"
+            data-aos-duration="1000"
+            data-aos-delay="100"
+          >
+            <a href="index.html">Home</a>
+          </div>
+          <div
+            class="link"
+            data-aos="fade-up"
+            data-aos-duration="1000"
+            data-aos-delay="200"
+          >
+            <a href="about.html">About</a>
+          </div>
+          <div
+            class="link"
+            data-aos="fade-up"
+            data-aos-duration="1000"
+            data-aos-delay="300"
+          >
+            <a href="edu.html">Education</a>
+          </div>
+
+          <div
+            class="link contact-btn"
+            data-aos="fade-up"
+            data-aos-duration="1000"
+            data-aos-delay="600"
+          >
+            <a href="https://wa.me/+6281232077049">Contact Me</a>
+          </div>
+        </div>
+        <i class="fa-solid fa-bars hamburg" onclick="hamburg()"></i>
+      </div>
+      <div class="dropdown">
+        <div class="links">
+          <a href="index.html">Home</a>
+          <a href="about.html">About</a>
+          <a href="edu.html">Education</a>
+
+          <a class="contact-me" href="https://wa.me/+6281232077049"
+            >Contact Me</a
+          >
+          <i class="fa-solid fa-xmark cancel" onclick="cancel()"></i>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Main Section -->
+    <section>
+      <div class="main-container">
+        <div class="image" data-aos="zoom-in-right" data-aos-duration="2500">
+          <img src="Photos/UKIM.jpg" alt="photo profil" />
+        </div>
+        <div class="content">
+          <h1
+            data-aos="fade-left"
+            data-aos-duration="1000"
+            data-aos-delay="800"
+          >
+            I study at the <span>Universitas Kristen Indonesia Maluku</span>
+          </h1>
+          <p
+            data-aos="fade-down"
+            data-aos-duration="1000"
+            data-aos-delay="1000"
+          >
+            Indonesian Christian University of Maluku (UKIM) is one of the
+            private universities located in Ambon City. UKIM has various
+            faculties that accommodate the interests and talents of students
+            from various backgrounds, with the aim of producing superior,
+            professional, and integrity graduates.
+          </p>
+          <p
+            data-aos="fade-left"
+            data-aos-duration="1000"
+            data-aos-delay="1200"
+          >
+            I chose to continue my studies at the Faculty of Computer Science,
+            Informatics Study Program at UKIM because from the beginning I had a
+            great interest in the world of technology, especially in the field
+            of programming. The digital world is growing very rapidly, and I
+            want to be part of a generation that not only uses technology, but
+            also creates it.
+          </p>
+          <p
+            data-aos="fade-right"
+            data-aos-delay="1400"
+            data-aos-duration="1000"
+          >
+            UKIM provides me with the right platform to develop these skills,
+            with relevant curriculum, competent lecturers, and a supportive
+            learning environment. I believe that the decision to choose the
+            Informatics Study Program is an important step in my journey towards
+            the future I dream of.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Experience Container -->
+    <section style="height: 100%">
+      <div class="skill-container">
+        <div class="content">
+          <h1
+            style="font-size: 50px"
+            data-aos="fade-left"
+            data-aos-duration="1000"
+            data-aos-delay="800"
+          >
+            What I'm <span>Studying</span>
+          </h1>
+        </div>
+        <div class="skill-content">
+          <!-- html card  -->
+          <div class="card" data-aos="fade-right" data-aos-duration="2500">
+            <div class="tools">
+              <div class="circle">
+                <span class="red box"></span>
+              </div>
+              <div class="circle">
+                <span class="yellow box"></span>
+              </div>
+              <div class="circle">
+                <span class="green box"></span>
+              </div>
+            </div>
+            <div class="card__content">
+              <img class="img-card" src="Photos/html.png" alt="" />
+              <h3>html</h3>
+              <p></p>
+            </div>
+          </div>
+
+          <!-- css card  -->
+          <div class="card" data-aos="fade-right" data-aos-duration="2500">
+            <div class="tools">
+              <div class="circle">
+                <span class="red box"></span>
+              </div>
+              <div class="circle">
+                <span class="yellow box"></span>
+              </div>
+              <div class="circle">
+                <span class="green box"></span>
+              </div>
+            </div>
+            <div class="card__content">
+              <img class="img-card" src="Photos/css.png" alt="" />
+              <h3>CSS</h3>
+              <p></p>
+            </div>
+          </div>
+
+          <!-- js card  -->
+          <div class="card" data-aos="fade-down" data-aos-duration="2500">
+            <div class="tools">
+              <div class="circle">
+                <span class="red box"></span>
+              </div>
+              <div class="circle">
+                <span class="yellow box"></span>
+              </div>
+              <div class="circle">
+                <span class="green box"></span>
+              </div>
+            </div>
+            <div class="card__content">
+              <img class="img-card" src="Photos/javascript.png" alt="" />
+              <h3>JavaScript</h3>
+              <p></p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init({ offset: 0 });
+    </script>
+    <script src="script.js"></script>
+  </body>
+</html>
